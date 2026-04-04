@@ -19,7 +19,7 @@ void main() {
         leitor.nextLine();
 
         if (escolha == 1) {
-            // Adiciona itens
+            // Adicionar itens
             do {
                 IO.print("Digite o nome do item: ");
                 lista.add(leitor.nextLine());
@@ -29,7 +29,7 @@ void main() {
             IO.println("Itens adicionados!");
 
         } else if (escolha == 2) {
-            // Mostra a lista atual
+            // Mostrar a lista atual
             IO.println("Sua lista de compras atual:");
             for (int i = 0; i < lista.size(); i++) {
                 IO.println((i + 1) + ". " + lista.get(i));
